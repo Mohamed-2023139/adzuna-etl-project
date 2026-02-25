@@ -73,3 +73,9 @@ adzuna-etl-project/
 ### 4️⃣ Query & Analytics
 - Amazon Athena queries Parquet files directly from S3
 - Enables serverless SQL-based analytics
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+## About Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-yasser-5a56672ab/i)
