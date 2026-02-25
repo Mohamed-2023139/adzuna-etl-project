@@ -43,7 +43,7 @@ adzuna-etl-project/
 └── athena_results/
 
 ---
-
+```
 ## 🔄 ETL Workflow Details
 
 ### 1️⃣ Data Extraction
