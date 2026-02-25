@@ -10,7 +10,8 @@ The workflow is fully orchestrated using AWS Step Functions and triggered automa
 
 ## 🏗️ Architecture Overview
 
-![assets](23azuna.drawio.png)
+
+![ETL Architecture](assets/23azuna.drawio.png)
 
 ---
 
