@@ -73,7 +73,3 @@ adzuna-etl-project/
 ### 4️⃣ Query & Analytics
 - Amazon Athena queries Parquet files directly from S3
 - Enables serverless SQL-based analytics
-
-ed  
-Aspiring Big Data Engineer  
-Focused on AWS, Spark, Snowflake & Modern Data Engineering
