@@ -30,7 +30,7 @@ The workflow is fully orchestrated using AWS Step Functions and triggered automa
 
 ---
 
-## 📂 S3 Data Lake Structure
+## 📂 Repository Structure
 ```
 adzuna-etl-project/
 │
