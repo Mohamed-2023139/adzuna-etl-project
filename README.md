@@ -54,12 +54,12 @@ adzuna-etl-project/
 │   ├── step_functions/
 │   │   state_machine.json
 │   │
-│   └── athena/
-│
-├── iam/
-│   lambda_policy.json
-│   glue_policy.json
-│   step_function_policy.json
+│   ├──  athena/
+│   │  
+│   └── iam/
+│       lambda_policy.json
+│       glue_policy.json
+│       step_function_policy.json
 │
 └── README.md
 
