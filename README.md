@@ -40,7 +40,28 @@ adzuna-etl-project/
 │
 ├── transformed_data/
 │
-└── athena_results/
+├── assets/
+│   23azuna.drawio.png
+│
+├── src/
+│   ├── lambda/
+│   │   extract_lambda.py
+│   │   move_processed_lambda.py
+│   │
+│   ├── glue/
+│   │   transform_job.py
+│   │
+│   ├── step_functions/
+│   │   state_machine.json
+│   │
+│   └── athena/
+│
+├── iam/
+│   lambda_policy.json
+│   glue_policy.json
+│   step_function_policy.json
+│
+└── README.md
 
 ---
 ```
