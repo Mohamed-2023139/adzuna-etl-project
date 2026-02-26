@@ -1,0 +1,71 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "lambda:InvokeFunction"
+            ],
+            "Resource": [
+                "arn:aws:lambda:us-east-1:123123123123:function:lambda_adzuna_extract_data:*",
+                "arn:aws:lambda:us-east-1:123123123123:function:lambda_adzuna_move_processed_files:*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "lambda:InvokeFunction"
+            ],
+            "Resource": [
+                "arn:aws:lambda:us-east-1:123123123123:function:lambda_adzuna_extract_data",
+                "arn:aws:lambda:us-east-1:123123123123:function:lambda_adzuna_move_processed_files"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogDelivery",
+                "logs:CreateLogStream",
+                "logs:GetLogDelivery",
+                "logs:UpdateLogDelivery",
+                "logs:DeleteLogDelivery",
+                "logs:ListLogDeliveries",
+                "logs:PutLogEvents",
+                "logs:PutResourcePolicy",
+                "logs:DescribeResourcePolicies",
+                "logs:DescribeLogGroups"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "logs:PutRetentionPolicy",
+                "logs:DescribeLogGroups"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "glue:StartJobRun",
+                "glue:GetJob",
+                "glue:GetJobRun",
+                "glue:GetJobRuns"
+            ],
+            "Resource": "arn:aws:glue:us-east-1:123123123123:job/adzuna_etl_transformation_job"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogStream",
+                "logs:PutLogEvents",
+                "logs:CreateLogGroup"
+            ],
+            "Resource": [
+                "arn:aws:logs:us-east-1:123123123123:log-group:/aws-glue/jobs/*",
+                "arn:aws:logs:us-east-1:123123123123:log-group:/aws-glue/jobs/*:*"
+            ]
+        }
+    ]
+}
