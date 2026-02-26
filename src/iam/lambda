@@ -11,8 +11,8 @@
                 "s3:DeleteObject"
             ],
             "Resource": [
-                "arn:aws:s3:::adzuna-etl-project",
-                "arn:aws:s3:::adzuna-etl-project/*"
+                "arn:aws:s3:::adzuna-etl",
+                "arn:aws:s3:::adzuna-etl/*"
             ]
         },
         {
